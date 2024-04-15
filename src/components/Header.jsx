@@ -3,19 +3,19 @@ import "../styles/HeaderStyle.css"
 const navList = [
     {
         name: "My Tech Stack",
-        link: "http://"
+        link: "#"
     },
     {
         name: "About Me",
-        link: "http://"
+        link: "#"
     },
     {
         name: "Experience",
-        link: "http://"
+        link: "#"
     },
     {
         name: "My Projects",
-        link: "http://"
+        link: "#"
     },
 ]
 
@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <>
             <nav>
-                <p>Denis Duarte</p>
+                <span>Denis Angel Duarte</span>
                 <ul>
                     {navList.map(({name, link}) => (
                         <li key={name}><a href={link}>{name}</a></li>

@@ -20,8 +20,12 @@ nav ul li:not(:first-child) {
     border-left: 1px solid black;
 }
 
-nav p {
+nav span {
     font-family: sans-serif;
+    align-self: center;
+    font-family: "Dancing Script", cursive;
+    font-size: larger;
+    font-weight: 700;
 }
 
 nav ul li a {

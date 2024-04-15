@@ -1,8 +1,71 @@
 .tech-stack-container {
-    display: flex;
-    padding: 1.5rem 1.8rem;
-    justify-self: center;
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    grid-template-areas: 
+    "img1 . img2 . img3"
+    ". img4 . img5 ."
+    "img6 . img7 . img8"
+    ". img9 . img10 ."
+    "img11 . img12 . img13";
     justify-content: center;
-    flex-flow: wrap;
-    gap: 10px 100px;
+}
+
+.tech-stack-container > * {
+    /* flex: 1; */
+}
+
+.tech-stack-container img:hover {
+    box-shadow: 0 1rem 1rem rgb(0, 88, 100);
+}
+
+.image-0 {
+    grid-area: img1;
+}
+
+.image-1 {
+    grid-area: img2;
+}
+
+.image-2 {
+    grid-area: img3;
+}
+
+.image-3 {
+    grid-area: img4;
+}
+
+.image-4 {
+    grid-area: img5;
+}
+
+.image-5 {
+    grid-area: img6;
+}
+
+.image-6 {
+    grid-area: img7;
+}
+
+.image-7 {
+    grid-area: img8;
+}
+
+.image-8 {
+    grid-area: img9;
+}
+
+.image-9 {
+    grid-area: img10;
+}
+
+.image-10 {
+    grid-area: img11;
+}
+
+.image-11 {
+    grid-area: img12;
+}
+
+.image-12 {
+    grid-area: img13;
 }
